@@ -1,0 +1,23 @@
+[package]
+name = "tcp_server_test"
+version = "0.1.0"
+authors = ["tom_glb <gooMorning_glb@wust.csn.cn>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+syn = { version = "1.0", features = ["full", "extra-traits", "visit", "fold"] }
+proc-macro2 = "1.0"
+quote = "=1.0.1"
+proc-macro-crate = "0.1.4"
+jsonrpc-core = "14.1"
+jsonrpc-core-client = "14.1"
+jsonrpc-pubsub = "14.1"
+jsonrpc-tcp-server = "14.1"
+jsonrpc-derive = "14.1"
+futures = "~0.1.6"
+serde = "1.0"
+serde_json = "1.0"
+tokio = "0.1"
+trybuild = "1.0"
